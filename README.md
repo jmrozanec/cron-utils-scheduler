@@ -8,6 +8,14 @@ A Java job scheduler based on cron-utils library. Supports multiple cron formats
 - SUCCEEDED queue: holds last successfuly executed jobs
 - FAILED queue: holds last FAILED jobs
 
+Job: provides execution code
+ExecutionInstance: job+status+date
+
+ExecutionStatus
+
+
 Consider:
 - ability to schedule Runnables
 - ability to schedule jobs that must hold no state (except for serializable parameters) and should be created by reflection (support distributed execution in a future)
+
+
