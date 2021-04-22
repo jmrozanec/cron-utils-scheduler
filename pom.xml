@@ -62,7 +62,7 @@
         <junit.version>4.12</junit.version>
         <mockito.version>1.10.19</mockito.version>
         <powermock.version>1.6.2</powermock.version>
-        <guava.version>18.0</guava.version>
+        <guava.version>30.1.1-jre</guava.version>
         <commonscli.version>1.4</commonscli.version>
 
         <github.global.server>github</github.global.server>
@@ -73,7 +73,7 @@
         <dependency>
             <groupId>com.cronutils</groupId>
             <artifactId>cron-utils</artifactId>
-            <version>9.1.0</version>
+            <version>9.1.5</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
